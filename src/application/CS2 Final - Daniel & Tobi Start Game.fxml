@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Ellipse?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneController">
+   <children>
+      <Ellipse layoutX="513.0" layoutY="353.0" radiusX="78.0" radiusY="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse layoutX="516.0" layoutY="206.0" radiusX="75.0" radiusY="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse layoutX="89.0" layoutY="353.0" radiusX="86.0" radiusY="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label alignment="TOP_CENTER" layoutX="85.0" layoutY="59.0" prefHeight="62.0" prefWidth="430.0" text="Whack-a-mole">
+         <font>
+            <Font name="JuneBug" size="35.0" />
+         </font>
+      </Label>
+      <Button layoutX="180.0" layoutY="206.0" mnemonicParsing="false" onAction="#switchtoScene2" prefHeight="88.0" prefWidth="239.0" text="Start Game">
+         <font>
+            <Font name="KBanAvoxlost" size="43.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="startmole3" fitHeight="120.0" fitWidth="149.0" layoutX="14.0" layoutY="276.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/Whack-a-mole%20Main%20Photo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="startmole4" fitHeight="106.0" fitWidth="139.0" layoutX="444.0" layoutY="276.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/Whack-a-mole%20Main%20Photo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="startmole2" fitHeight="100.0" fitWidth="133.0" layoutX="449.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/Whack-a-mole%20Main%20Photo.png" />
+         </image>
+      </ImageView>
+      <Ellipse layoutX="89.0" layoutY="206.0" radiusX="86.0" radiusY="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <ImageView fx:id="startmole1" fitHeight="124.0" fitWidth="149.0" layoutX="14.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/Whack-a-mole%20Main%20Photo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

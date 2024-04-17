@@ -1,41 +1,22 @@
 package application;
 
 public abstract class Mole {
-	
-protected boolean isVisible;
-protected String type;
-protected int position;
-protected int duration;
-protected int scoreValue;
 
-public Mole(String type, int position, int duration, int scoreValue) {
-	this.type = type;
-	this.position = position;
-	this.duration = duration;
-	this.d
-	
+protected int scoreValue;
+protected String hitsound;
+protected int TotalScore = 0;
+
+//Abstract mole class to make defaults for every mole type
+public Mole (int scoreValue, String hitsound) {
+	this.scoreValue = scoreValue;
+	this.hitsound = hitsound;
+
 }
 
+public abstract void handleClick();
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+protected void increaseScore() {
+	TotalScore += scoreValue;
+}
 
 }
